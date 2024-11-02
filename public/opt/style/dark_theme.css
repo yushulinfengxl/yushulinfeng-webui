@@ -1,0 +1,6 @@
+/* dark theme */
+html .i_main[data-theme="dark"] {
+  --text_color: #fff;
+  --box_bg: #333;
+  background-color: var(--box_bg);
+}

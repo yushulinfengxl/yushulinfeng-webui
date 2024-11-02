@@ -1,0 +1,10 @@
+/* default theme */
+:root .i_main[data-theme="light"],
+:root .i_main {
+  --text_color: #333;
+  --text_weight_color: #6699ff;
+  --main_color: #fff;
+  --box_bg: #eee;
+  --line_color: rgb(238 238 238);
+  background-color: var(--main_color);
+}

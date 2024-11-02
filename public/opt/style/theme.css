@@ -1,0 +1,25 @@
+/* dark theme
+html .i_main[data-theme="dark"] {
+  --text_color: #fff;
+  --box_bg: #333;
+  background-color: var(--box_bg);
+} */
+
+/* pink theme
+html .i_main[data-theme="pink"] {
+  --text_color: #f69;
+  --box_bg: #fff2f6;
+  background-color: var(--box_bg);
+} */
+
+/* default theme
+:root .i_main[data-theme="light"],
+:root .i_main {
+  --text_color: #333;
+  --box_bg: #fff0;
+  background-color: var(--box_bg);
+} */
+
+.i_main {
+  width: 100%;
+}
