@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   pinia: {
     storesDirs: ['./stores/**', './custom-folder/stores/**'],
   },
-  // rootDir: "_aaaa",
+  rootDir: "build-output",
   // 路由auto
   pages: true,
   appId: "yushulinfengApp",
